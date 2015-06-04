@@ -1,0 +1,19 @@
+0.  GIF = 256, PNG = 256 extendable to ~16.7 million, JPEG = ~16.7 million, BMP = ~4.3 billion
+1.  GIF.
+2.  Lossless loses no bits during a save, lossy destroys some when the file is saved.
+3.  JPEG is, but can actually be saved in a lossless way contrary to popular belief (though this isn't widely supported), BMP is a "wrapper" formatted file that can either be lossy or lossless depending on how you choose to save it, and PNG and GIF are both lossless. 
+4.  The operating system marks the first entry in the file's directry indicating that it has been deleted.  Next, all of the file's clusters are moved to a section marked as free clusters, but the file data remains unmodified.
+5.  Use an appropriately knowledgeable disk sanitizer/declassifier or combine a disk sanitizer/declassifier with a slack space sanitizer in order to eliminte all Level 1, 2, 3, 4, and 5 info.
+6.  Typedefs that use macros to define min/max values for exact-width int types.
+7.  Setting specific int sizes that correspond to a size in bits for things lke bitmap headers.
+8.  BYTE = 1 byte (*le gasp* what a stunner!), DWORD = 4 bytes, LONG = 4 bytes, WORD = 2 bytes
+9.  ASCII = BM, hex = 42 4D w/0 for offset so I believe that's denoted as 0x424D
+10. bfSize denotes the total value representing the number of bytes a file contains, but biSize is just the number of bytes the information header contains
+11. The bitmap is topdown and the origin is in the upper left corner for uncompressed red, green, blue bitmaps, whee
+12. biBitCount (muahahaha, 1, 2, 3, I am ze Count!)
+13. If the file is inaccessible or otherwise unavailable
+14. Because we only need one struct, silly goose!  Gooses!  Geese!  Honk!!!  Quack?  What's happening to me?!  Damnit, someone put me in AnatidaeStruct again...
+15. 3! This is the number of remaining questions now, too!
+16. Jumps to a specific spot within a file for the stream you input!  If a stream babbles inside of a black box, does any 1 hear it?
+17. This guy sets the offset from whatever the current file position is for your seek.
+18. A smiling CS50 staffer with a Harvard shirt and... some kind of... stuffed.. animal thing?  A monkey?  His Chucky possessed teddy?  O.O  
