@@ -13,8 +13,7 @@ _______________________________________________________________________________
    1. I feel like this pseudocode should be longer and the real
       code should be shorter or more efficient, but this seems to be what 
       works best for me right now.  Maybe devote some time this week to 
-      learning how to write more complete/thorough psuedocode?  I just feel
-      like this is kinda lackluster!  
+      learning how to write more complete/thorough psuedocode?  I know it could be better!
   
    2. I really, really, REALLY need to make some good developer friends
       to talk to.  No one to bounce ideas off of SUCKS.  Took me ~16 hours of
@@ -23,14 +22,14 @@ _______________________________________________________________________________
       as efficiently as I'd like.  Gotta get faster!  
   
    3. Using strlen seems so inefficient.  I know there must be better ways
-      to do what I want to do here.  And what the fuck is up with the insane
-      difficulty of checking length of long longs and arrays in c?  That shit 
-      was ridiculously tedious and got me NOWHERE.  Maybe I was just approaching
+      to do what I want to do here.  And what the heck is up with the insane
+      difficulty of checking length of long longs and arrays in c?  That 
+      was ridiculously tedious and got me NOWHERE.  I was just approaching
       this problem from the wrong direction initially (and misunderstood the 
       necessary Luhn algorithm at first), but for other applications, that still
       seems pretty ridiculous. 
    
-   4. Holy fuck, that took me like 16 hours and I have three hours left to 
-      finish mario.  Fuck fuck fuck!  It's go time!
+   4. That took me like 16 hours (waaay too long) and I have three hours left to 
+      finish mario.  @*&#^!  It's go time!
 */
       
